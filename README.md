@@ -2,7 +2,8 @@
 Fitness Sports Center
 
 # Tech stack
-React 
-Tailwind CSS
+* React 
+* Tailwind CSS
+* Javascript
 
 # Live link
