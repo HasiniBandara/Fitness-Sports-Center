@@ -28,11 +28,7 @@ const Navbar = () => {
         <img
           src="../public/logo.jpg"
           alt="Logo"
-<<<<<<< HEAD
-          className="h-10 md:h-16 w-auto mb-0 md:mb-0"
-=======
           className="h-10 md:h-16 w-auto mb-4 md:mb-0"
->>>>>>> 8884db44ea88861af08c315b5554a7bcfa1f7398
         />
         <ul className="flex flex-col md:flex-row gap-4 md:gap-6 text-sm font-bold text-amber-950">
           <li className="cursor-pointer hover:text-yellow-500">
@@ -53,10 +49,9 @@ const Navbar = () => {
   );
 };
 
-
 const Hero = () => {
   return (
-    <section section id="home" className="w-full bg-black text-white flex flex-col md:flex-row items-center justify-between px-10 py-16 pt-35">
+    <section id="home" className="w-full bg-black text-white flex flex-col md:flex-row items-center justify-between px-10 py-16 pt-35">
       <div className="max-w-3xl mx-auto">
         <p className="text-gray-300 p-5 mb-20 font-extrabold text-6xl">
           BUILD YOUR LEGACY
@@ -69,7 +64,7 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="mt-10 md:mt-0 ">
+      <div className="mt-10 md:mt-0">
         <div className="w-64 h-64 bg-white rounded-full flex items-center justify-center mr-20">
           <img src="../public/logo.jpg" alt="logo" className="w-full h-full rounded-full"/>
         </div>
@@ -80,18 +75,17 @@ const Hero = () => {
 
 const About = () => {
   return (
-    <section section id="about" className="bg-white px-10 py-16 flex flex-col md:flex-row items-center gap-10">
+    <section id="about" className="bg-white px-10 py-16 flex flex-col md:flex-row items-center gap-10">
       <img src="../public/logo.jpg" alt="logo" className="w-60 rounded-full" />
-
       <div>
         <p className="text-5xl font-bold text-yellow-600 pb-6">
           FITNESS SPORTS CENTER
         </p>
         <p className="text-amber-950 text-lg leading-relaxed">
           <b>Fitness Sports Center</b> is your ultimate destination for strength, performance, and transformation. We combine elite coaching, modern equipment, and a motivating environment to help you push limits, build confidence, and achieve your fitness goals.
-          <br></br><br></br>
+          <br /><br />
           Our programs are designed for individuals of all fitness levels, whether you're just starting your journey or striving to reach peak performance. With personalized training plans, expert guidance, and a supportive community, we ensure every member stays motivated, consistent, and focused on long-term success.
-          </p>
+        </p>
       </div>
     </section>
   );
@@ -117,17 +111,14 @@ const Services = () => {
   ];
 
   return (
-    <section section id="services" className="bg-black text-white px-10 py-16 text-center">
+    <section id="services" className="bg-black text-white px-10 py-16 text-center">
       <p className="text-5xl font-bold text-white pb-12">
         OUR SERVICES
       </p>
 
       <div className="grid md:grid-cols-3 gap-6">
         {services.map((service, i) => (
-          <div
-            key={i}
-            className="bg-gray-900 border border-yellow-500 rounded-lg p-6 hover:scale-105 transition"
-          >
+          <div key={i} className="bg-gray-900 border border-yellow-500 rounded-lg p-6 hover:scale-105 transition">
             <img src={service.img} alt={service.title} className="w-20 h-15 mx-auto mb-4" />
             <h3 className="font-semibold mb-2">{service.title}</h3>
             <p className="text-sm text-gray-400">{service.desc}</p>
@@ -140,7 +131,7 @@ const Services = () => {
 
 const Contact = () => {
   return (
-    <section section id="contact" className="bg-white px-10 py-16 grid md:grid-cols-2 gap-10">
+    <section id="contact" className="bg-white px-10 py-16 grid md:grid-cols-2 gap-10">
       <div>
         <p className="text-2xl font-bold text-amber-950 pb-4">
           CONTACT US
@@ -166,20 +157,9 @@ const Contact = () => {
         </p>
 
         <form className="flex flex-col gap-4 pr-10">
-          <input
-            type="text"
-            placeholder="Name"
-            className="border p-2 rounded"
-          />
-          <input
-            type="email"
-            placeholder="Email"
-            className="border p-2 rounded"
-          />
-          <textarea
-            placeholder="Message"
-            className="border p-2 rounded h-24"
-          ></textarea>
+          <input type="text" placeholder="Name" className="border p-2 rounded" />
+          <input type="email" placeholder="Email" className="border p-2 rounded" />
+          <textarea placeholder="Message" className="border p-2 rounded h-24"></textarea>
 
           <button className="bg-yellow-500 text-black py-2 rounded font-semibold cursor-pointer">
             Submit
@@ -209,8 +189,4 @@ export default function App() {
       <Footer />
     </div>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 8884db44ea88861af08c315b5554a7bcfa1f7398
