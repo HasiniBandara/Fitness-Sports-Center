@@ -67,7 +67,7 @@ const Hero = () => {
 
       <div className="mt-10 md:mt-0 ">
         <div className="w-64 h-64 bg-white rounded-full flex items-center justify-center mr-20">
-          <img src="../public/logo.jpg" alt="logo" className="w-full h-full rounded-full"/>
+          <img src="./public/logo.jpg" alt="logo" className="w-full h-full rounded-full"/>
         </div>
       </div>
     </section>
@@ -77,7 +77,7 @@ const Hero = () => {
 const About = () => {
   return (
     <section section id="about" className="bg-white px-10 py-16 flex flex-col md:flex-row items-center gap-10">
-      <img src="../public/logo.jpg" alt="logo" className="w-60 rounded-full" />
+      <img src="./public/logo.jpg" alt="logo" className="w-60 rounded-full" />
 
       <div>
         <p className="text-5xl font-bold text-yellow-600 pb-6">
@@ -98,17 +98,17 @@ const Services = () => {
     {
       title: "Personal Training",
       desc: "One-on-one coaching designed to help you achieve your specific fitness goals faster and more effectively.",
-      img: "../public/personal.jpg", 
+      img: "./public/personal.jpg", 
     },
     {
       title: "Group Classes",
       desc: "High-energy workout sessions in a motivating group environment that keeps you engaged and consistent.",
-      img: "../public/group.jpg",
+      img: "./public/group.jpg",
     },
     {
       title: "Cardio Training",
       desc: "Intense training sessions that improve endurance, burn calories, and boost overall fitness.",
-      img: "../public/cardio.jpg",
+      img: "./public/cardio.jpg",
     },
   ];
 
