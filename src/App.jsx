@@ -28,7 +28,11 @@ const Navbar = () => {
         <img
           src="../public/logo.jpg"
           alt="Logo"
+<<<<<<< HEAD
           className="h-10 md:h-16 w-auto mb-0 md:mb-0"
+=======
+          className="h-10 md:h-16 w-auto mb-4 md:mb-0"
+>>>>>>> 8884db44ea88861af08c315b5554a7bcfa1f7398
         />
         <ul className="flex flex-col md:flex-row gap-4 md:gap-6 text-sm font-bold text-amber-950">
           <li className="cursor-pointer hover:text-yellow-500">
@@ -205,4 +209,8 @@ export default function App() {
       <Footer />
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8884db44ea88861af08c315b5554a7bcfa1f7398

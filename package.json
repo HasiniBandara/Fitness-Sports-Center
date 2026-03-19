@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "fitness-sports-center",
   "private": true,
   "version": "0.0.0",
@@ -23,5 +24,12 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.4.0",
     "vite": "^8.0.0"
+=======
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@tailwindcss/vite": "^4.2.1",
+    "framer-motion": "^12.38.0",
+    "tailwindcss": "^4.2.1"
+>>>>>>> 8884db44ea88861af08c315b5554a7bcfa1f7398
   }
 }
