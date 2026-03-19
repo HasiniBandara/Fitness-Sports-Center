@@ -9,8 +9,4 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> 8884db44ea88861af08c315b5554a7bcfa1f7398
