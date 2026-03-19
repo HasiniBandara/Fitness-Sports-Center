@@ -4,12 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/Fitness-Sports-Center/",
   plugins: [
     react(),
     tailwindcss(),
   ],
 })
-
-export default {
-  base: "/Fitness-Sports-Center/"
-}
